@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  app:
+    build:
+      context: .
+      args:
+        BUILD_TS: ${BUILD_TS:-defaultvalue}
